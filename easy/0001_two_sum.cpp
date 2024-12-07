@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <unordered_map>
 
 using namespace std;
 
@@ -21,16 +23,3 @@ public:
         return result;
     }    
 };
-
-int main() {
-    Solution s;
-    vector<int> v = {2, 7, 11, 15};
-    int target = 9;
-
-    vector<int> res;
-    res = s.twoSum(v, target);
-
-    for (auto x : res) {
-        cout << x << "\n";
-    }
-}
