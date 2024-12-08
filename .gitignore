@@ -30,4 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Main.cpp : used only for testing solutions
 main.cpp
