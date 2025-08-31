@@ -1,9 +1,9 @@
 # Leetcode 150 Study Plan
 
 - Started: 30 Aug 2025
-- Total Problems Solved: 4
+- Total Problems Solved: 5
   - Easy: 3
-  - Medium: 1
+  - Medium: 2
   - Hard: 0
 
 ## Progress
@@ -14,3 +14,4 @@
 | 26 | Remove Duplicates From Sorted Array | Easy | 30-Aug-2025 |
 | 27 | Remove Element | Easy | 30-Aug-2025 |
 | 80 | Remove Duplicates II | Medium | 30-Aug-2025 |
+| 189 | Rotate Array | Medium | 31-Aug-2025 |
