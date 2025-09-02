@@ -1,8 +1,8 @@
 # Leetcode 150 Study Plan
 
 - Started: 30 Aug 2025
-- Total Problems Solved: 6
-  - Easy: 4
+- Total Problems Solved: 9
+  - Easy: 7
   - Medium: 2
   - Hard: 0
 
