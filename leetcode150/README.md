@@ -17,3 +17,5 @@
 | 189 | Rotate Array | Medium | 31-Aug-2025 |
 | 121 | Best Time to Buy and Sell Stocks | Easy | 1-Sept-2025 |
 | 392 | Is Subsequence | Easy | 1-Sept-2025 |
+| 383 | Ransome Note | Easy | 2-Sept-2025 |
+| 1 | Two Sum | Easy | 2-Sept-2025 |
