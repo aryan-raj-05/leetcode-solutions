@@ -19,3 +19,6 @@
 | 392 | Is Subsequence | Easy | 1-Sept-2025 |
 | 383 | Ransome Note | Easy | 2-Sept-2025 |
 | 1 | Two Sum | Easy | 2-Sept-2025 |
+| 202 | Happy Number | Easy | 3-Sept-2025 |
+| 242 | Valid Anagrams | Easy | 3-Sept-2025 |
+| 49 | Group Anagrams | Medium | 3-Sept-2025 |
