@@ -22,3 +22,4 @@
 | 202 | Happy Number | Easy | 3-Sept-2025 |
 | 242 | Valid Anagrams | Easy | 3-Sept-2025 |
 | 49 | Group Anagrams | Medium | 3-Sept-2025 |
+| 125 | Valid Palindrome | Easy | 4-Sept-2025 |
