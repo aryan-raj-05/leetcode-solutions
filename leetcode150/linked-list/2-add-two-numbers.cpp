@@ -13,32 +13,22 @@ public:
         ListNode *res = new ListNode();
         ListNode *head = res;
 
-        while (l1 != nullptr && l2 != nullptr) {
-            int sum = l1->val + l2->val + carry;
-            carry = (sum >= 10) ? 1 : 0;
+        while (l1 != nullptr || l2 != nullptr || carry != 0) {
+            int sum = carry;
+
+            if (l1 != nullptr) {
+                sum += l1->val;
+                l1 = l1->next;
+            }
+
+            if (l2 != nullptr) {
+                sum += l2->val;
+                l2 = l2->next;
+            }
+
+            carry = sum / 10;
             res->next = new ListNode(sum % 10);
             res = res->next;
-            l1 = l1->next; l2 = l2->next;
-        }
-
-        while (l1 != nullptr) {
-            int sum = l1->val + carry;
-            carry = (sum >= 10) ? 1 : 0;
-            res->next = new ListNode(sum % 10);
-            res = res->next;
-            l1 = l1->next;
-        }
-
-        while (l2 != nullptr) {
-            int sum = l2->val + carry;
-            carry = (sum >= 10) ? 1 : 0;
-            res->next = new ListNode(sum % 10);
-            res = res->next;
-            l2 = l2->next;
-        }
-
-        if (carry == 1) {
-            res->next = new ListNode(1);
         }
 
         return head->next;
