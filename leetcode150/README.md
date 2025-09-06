@@ -1,9 +1,9 @@
 # Leetcode 150 Study Plan
 
 - Started: 30 Aug 2025
-- Total Problems Solved: 9
-  - Easy: 7
-  - Medium: 2
+- Total Problems Solved: 15
+  - Easy: 11
+  - Medium: 4
   - Hard: 0
 
 ## Progress
@@ -23,3 +23,5 @@
 | 242 | Valid Anagrams | Easy | 3-Sept-2025 |
 | 49 | Group Anagrams | Medium | 3-Sept-2025 |
 | 125 | Valid Palindrome | Easy | 4-Sept-2025 |
+| 141 | Linked List Cycle | Easy | 6-Sept-2025 |
+| 2 | Add Two Numbers | Medium | 6-Sept-2025 |
