@@ -1,8 +1,8 @@
 # Leetcode 150 Study Plan
 
 - Started: 30 Aug 2025
-- Total Problems Solved: 17
-  - Easy: 13
+- Total Problems Solved: 19
+  - Easy: 15
   - Medium: 4
   - Hard: 0
 
@@ -27,3 +27,5 @@
 | 2 | Add Two Numbers | Medium | 6-Sept-2025 |
 | 169 | Majority Element | Easy | 7-Sept-2025 |
 | 13 | Roman to Integer | Easy | 7-Sept-2025 |
+| 20 | Valid Parenthesis | Easy | 8-Sept-2025 |
+| 104 | Max Depth of Binary Tree | Easy | 8-Sept-2025 |
