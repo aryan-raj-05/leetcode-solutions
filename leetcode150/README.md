@@ -1,8 +1,8 @@
 # Leetcode 150 Study Plan
 
 - Started: 30 Aug 2025
-- Total Problems Solved: 19
-  - Easy: 15
+- Total Problems Solved: 21
+  - Easy: 17
   - Medium: 4
   - Hard: 0
 
@@ -29,3 +29,5 @@
 | 13 | Roman to Integer | Easy | 7-Sept-2025 |
 | 20 | Valid Parenthesis | Easy | 8-Sept-2025 |
 | 104 | Max Depth of Binary Tree | Easy | 8-Sept-2025 |
+| 70 | Climbing Stairs | Easy | 9-Sept-2025 |
+| 191 | No of Set Bits | Easy | 9-Sept-2025 |
