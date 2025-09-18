@@ -1,9 +1,9 @@
 # Leetcode 150 Study Plan
 
 - Started: 30 Aug 2025
-- Total Problems Solved: 21
+- Total Problems Solved: 22
   - Easy: 17
-  - Medium: 4
+  - Medium: 5
   - Hard: 0
 
 ## Progress
@@ -31,3 +31,4 @@
 | 104 | Max Depth of Binary Tree | Easy | 8-Sept-2025 |
 | 70 | Climbing Stairs | Easy | 9-Sept-2025 |
 | 191 | No of Set Bits | Easy | 9-Sept-2025 |
+| 274 | H Index | Medium | 19-Sept-2025 |
