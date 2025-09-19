@@ -1,5 +1,4 @@
 #include <algorithm>
-#include <iostream>
 #include <vector>
 using namespace std;
 
@@ -44,13 +43,29 @@ public:
 
     // counting sort method
     int hIndexCount(vector<int>& citations) {
-        
+        vector<int> sortedCitations = countSort(citations);
+        int h = sortedCitations.size();
+        int count = 0, i = sortedCitations.size() - 1;
+        while (1) {
+            if (count == h) return h;
+            if (i < 0) return 0;
+            if (sortedCitations[i] >= h) { count++; i--; }
+            else h--;
+        }
+        return 0;
+    }
+
+    vector<int> countSort(const vector<int>& citations) {
+        int n = citations.size();
+        int maxVal = *max_element(citations.begin(), citations.end());
+
+        vector<int> aux(maxVal + 1, 0);
+        for (int num : citations)            aux[num]++;
+        for (int i = 1; i < aux.size(); i++) aux[i] += aux[i - 1];
+
+        vector<int> output(n);
+        for (int i = n - 1; i >=0 ; i--)
+            output[--aux[citations[i]]] = citations[i];
+        return output;
     }
 };
-
-int main() {
-    vector<int> citations = {1};
-
-    Solution s;
-    cout << s.hIndexSort(citations) << "\n";
-}
