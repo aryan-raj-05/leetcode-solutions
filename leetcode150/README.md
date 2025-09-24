@@ -1,9 +1,9 @@
 # Leetcode 150 Study Plan
 
 - Started: 30 Aug 2025
-- Total Problems Solved: 22
+- Total Problems Solved: 23
   - Easy: 17
-  - Medium: 5
+  - Medium: 6
   - Hard: 0
 
 ## Progress
@@ -32,3 +32,4 @@
 | 70 | Climbing Stairs | Easy | 9-Sept-2025 |
 | 191 | No of Set Bits | Easy | 9-Sept-2025 |
 | 274 | H Index | Medium | 19-Sept-2025 |
+| 134 | Gas Station | Medium | 24-Sept-2025 |
