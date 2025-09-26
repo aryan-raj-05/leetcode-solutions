@@ -26,7 +26,7 @@ public:
     }
 
     // sort the citations array
-    // find the h index by interating through array in reverse
+    // find the h index by iterating through array in reverse
     // time complexity - O(nlogn)
     int hIndexSort(vector<int>& citations) {
         sort(citations.begin(), citations.end());
