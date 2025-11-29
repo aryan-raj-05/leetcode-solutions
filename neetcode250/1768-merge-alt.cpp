@@ -1,4 +1,3 @@
-#include <iostream>
 #include <string>
 using namespace std;
 
@@ -22,11 +21,3 @@ public:
         return result;
     }
 };
-
-int main() {
-    auto sol = Solution();
-    string s = "abcd";
-    string t = "pq";
-
-    cout << sol.mergeAlternately(s, t) << "\n";
-}
