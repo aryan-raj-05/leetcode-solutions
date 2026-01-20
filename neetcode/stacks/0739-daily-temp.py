@@ -5,21 +5,14 @@ class Solution:
         n = len(temperatures)
 
         result = [0] * n
-        stack = [temperatures[0]]
-        pos = [0]
+        pos_stack = [0]
         for i in range(1, n):
             t = temperatures[i]
-            if t <= stack[-1]:
-                stack.append(t)
-                pos.append(i)
-            else:
-                while stack and stack[-1] < t:
-                    idx = pos[-1]
-                    days = i - idx
-                    result[idx] = days
-                    stack.pop(); pos.pop()
+            
+            while pos_stack and temperatures[pos_stack[-1]] < t:
+                result[pos_stack[-1]] = i - pos_stack[-1]
+                pos_stack.pop()
 
-            stack.append(t)
-            pos.append(i)
+            pos_stack.append(i)
 
         return result
